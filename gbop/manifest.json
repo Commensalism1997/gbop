@@ -1,0 +1,10 @@
+{
+    "name": "gbop",
+    "description": "funny",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["*://gpop.io/create/"],
+        "js": ["bg.js"]
+    }]
+}
